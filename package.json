@@ -2,7 +2,7 @@
   "name": "dw-raven-custom-theme-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A theme of customized dreamweaver raven",
+  "description": "A syntax theme of atom like dreamweaver raven customized",
   "keywords": [
     "syntax",
     "theme"
