@@ -99,6 +99,20 @@ atom-text-editor .search-results .marker.current-result .region {
     color: @color-css-value;
   }
 
+  &.js {
+    &.control {
+      color: @light-green;
+    }
+
+    &.operator {
+      color: @syntax-text-color;
+
+      &.delete {
+        color: @light-green;
+      }
+    }
+  }
+
   &.php {
     &.control {
       color: @light-green;
@@ -107,27 +121,31 @@ atom-text-editor .search-results .marker.current-result .region {
     &.operator {
       color: @syntax-text-color;
     }
+  }
 
-    &.other {
-      color: @light-green;
+  &.other {
+    color: @light-green;
 
-      &.special-method {
-        color: @blue;
-      }
+    &.special-method {
+      color: @blue;
+    }
 
-      &.unit {
-        color: @orange;
-      }
+    &.unit {
+      color: @orange;
+    }
 
-      &.phpdoc {
-        color: @light-gray;
-      }
+    &.phpdoc {
+      color: @light-gray;
     }
   }
 }
 
 .storage {
   color: @light-green;
+
+  &.jsdoc {
+    color: @dark-gray;
+  }
 
   &.php {
     color: @light-green;
@@ -259,6 +277,16 @@ atom-text-editor .search-results .marker.current-result .region {
 
     &.property-name {
       color: @color-css-property-name;
+    }
+  }
+
+  &.js {
+    &.function {
+      color: @light-purple;
+
+      &.any-method {
+        color: @blue;
+      }
     }
   }
 
